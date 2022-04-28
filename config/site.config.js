@@ -11,13 +11,13 @@ module.exports = {
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
-  icon: '/icons/128.png',
+  icon: '/icons/favicon-32x32.png',
 
   // The name of your website. Present alongside your icon.
-  title: "Ghossst's OneDrive",
+  title: "Ghossst's",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
-  baseDirectory: '/',
+  baseDirectory: '/Public',
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
@@ -35,11 +35,11 @@ module.exports = {
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
-    '© 2022 Ghosteracy. Based in Mars.\n <img alt="Steam Views" src="https://img.shields.io/steam/views/3000?style=plastic">',
+    '© 2022 Ghosteracy. Based in Mars.\n <center><img alt="SymfonyInsight Stars" src="https://img.shields.io/symfony/i/stars/825be328-29f8-44f7-a750-f82818ae9111"></center>',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
-  protectedRoutes: ['/💀 Private folder/', '/🥟 Some test files/Protected route'],
+  protectedRoutes: ['/☠️ Private/u-need-a-password', '/🔞 XXX'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
   email: 'ghossst@ghosteracy.systems',
